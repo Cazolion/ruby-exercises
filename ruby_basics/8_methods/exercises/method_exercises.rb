@@ -76,9 +76,5 @@ end
 # hint: use Comparable#between?
 
 def twenty_first_century?(year)
-    if year.between?(2001, 2100)
-        true
-    else
-        false
-    end
+    year.between?(2001, 2100)
 end
